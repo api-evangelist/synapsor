@@ -1,7 +1,26 @@
 aid: synapsor
-name: synapsor
-description: synapsor is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synapsor.png
+name: Synapsor
+description: Synapsor (legal entity Ottai Technology (Wuxi) Co. Ltd.) is a Chinese
+  medical-device company based in Wuxi, Jiangsu that develops AI-powered, medical-grade
+  smart wearable devices. Its flagship product is the Ottai continuous glucose monitoring
+  (CGM) system - a waterproof, calibration-free wearable sensor paired with a mobile
+  app and AI assistant for 24/7 glucose tracking and diabetes management, sold in China
+  and internationally via ottai.com. Investors include Qiming Venture Partners, Huatai
+  Zijin Investment, Wuxi Industry Development Group, YuanBio Venture Capital, and
+  Shunwei Capital. Synapsor publishes no public developer API, portal, or machine-readable
+  API specifications as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/synapsor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medical Devices
+- Wearables
+- Continuous Glucose Monitoring
+- Diabetes
+- Internet of Things
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/synapsor-domain-security.yml
 - type: Website
   url: https://synapsor.com
+- type: Blog
+  url: https://www.ottai.com/blog
+- type: Support
+  url: https://www.ottai.com/contact
+- type: TermsOfService
+  url: https://www.ottai.com/policy/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ottai.com/policy/privacy-policy
+- type: WellKnown
+  url: well-known/synapsor-well-known.yml
+- type: LLMsTxt
+  url: llms/synapsor-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

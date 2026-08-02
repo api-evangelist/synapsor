@@ -1,0 +1,22 @@
+# Synapsor
+
+> Synapsor (Wuxi, China) develops AI-powered, medical-grade smart wearable devices, best known for the Ottai continuous glucose monitoring (CGM) system — a waterproof, calibration-free wearable sensor with a companion mobile app and AI assistant for 24/7 glucose tracking and diabetes management. Backed by Qiming Venture Partners, Huatai Zijin Investment, Wuxi Industry Development Group, YuanBio Venture Capital, and Shunwei Capital. Synapsor publishes no public developer API, developer portal, or machine-readable API specifications; api.synapsor.com serves a marketing page, not an API.
+
+## Sites
+
+- [Synapsor (China)](https://synapsor.com): Corporate and product site for the Ottai CGM system (Chinese)
+- [Ottai Global](https://www.ottai.com): Global consumer site for the Ottai CGM device and app
+- [Ottai app portal](https://ottai.seas.synapsor.com/): Ottai app/services surface hosted on the Synapsor domain
+
+## Docs
+
+- [User guide](https://www.ottai.com/user-guide): Ottai CGM user guide
+- [FAQs](https://www.ottai.com/faqs): Frequently asked questions
+- [About us](https://www.ottai.com/about-us): Company background
+- [Blog](https://www.ottai.com/blog): Ottai blog
+- [Terms of use](https://www.ottai.com/policy/terms-of-use): Terms of use
+- [Privacy policy](https://www.ottai.com/policy/privacy-policy): Privacy policy
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/synapsor/refs/heads/main/apis.yml): API Evangelist network profile for Synapsor (no public APIs discovered as of 2026-07-21)
